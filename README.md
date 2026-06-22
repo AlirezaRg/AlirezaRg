@@ -1,95 +1,120 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,15&height=220&section=header&text=AlirezaRg&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20AI%20Tools%20Builder&descAlignY=55&descSize=18" />
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0d1117,100:00ff41&height=200&section=header&text=root@AlirezaRg:~$&fontSize=38&fontColor=00ff41&fontAlignY=50&animation=twinkling" />
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=800&color=B14AFF&center=true&vCenter=true&width=600&lines=Python+%7C+Flask+%7C+Django+%7C+Odoo;Building+AI-powered+desktop+tools;Freelance+Full-Stack+Developer;Computer+Engineering+Student" />
+```
+┌──────────────────────────────────────────────────────┐
+│  SYSTEM IDENTIFIED                                    │
+│  > whoami                                             │
+│  alireza_dev                                          │
+│                                                        │
+│  > cat role.txt                                       │
+│  Full-Stack Developer (Freelance)                     │
+│  Python · Flask · Django · Odoo Integrations          │
+│                                                        │
+│  > status --check                                     │
+│  [OK] Studying Computer Engineering                   │
+│  [OK] Building AI-powered desktop tools                │
+│  [OK] Open for backend / automation projects          │
+└──────────────────────────────────────────────────────┘
+```
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=900&color=00FF41&center=true&vCenter=true&width=650&lines=Connecting+hardware+to+enterprise+software;Building+Flask+%2B+Odoo+middleware+systems;Automating+workflows+with+Claude+Code;Always+compiling+new+ideas..." />
 
 </div>
 
 <br/>
 
-<img src="https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/Coding%20GIFS/coding-2.gif" width="100%" height="3px"/>
+![Terminal Divider](https://raw.githubusercontent.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/main/Coding%20GIFS/coding-2.gif)
 
-## 👾 About Me
+## `>_` System Log: Current Build
 
-```yaml
-identity:
-  name: "Alireza"
-  role: "Full-Stack Developer (Freelance)"
-  focus: ["Python", "Flask", "Django", "Odoo Integrations"]
-  currently: "Studying Computer Engineering"
-  building: "AI-powered desktop tools using Claude Code"
-  status: "Open to backend / automation / integration projects"
+```bash
+$ ./describe_me.sh
+
+[INFO] Backend dev focused on Python, Flask, and Django.
+[INFO] Currently integrating biometric attendance hardware
+       with Odoo 18 via a custom Flask middleware.
+[INFO] Side projects: AI desktop assistants powered by
+       Claude Code — built for real productivity, not demos.
+[INFO] Studying Computer Engineering. Applying coursework
+       directly to production code whenever possible.
+
+[STATUS] Process running... Press Ctrl+C to interrupt (you can't, I'm shipping)
 ```
-
-I build backend systems that connect hardware to software — currently working on a Flask
-middleware that bridges biometric attendance devices with Odoo 18. Outside of client work, I build
-desktop AI assistants for fun and for real productivity gains.
 
 <br/>
 
-## 🛠️ Tech Stack
+## `>_` Tech Stack
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/-Python-0d1117?style=for-the-badge&logo=python&logoColor=B14AFF)
-![Flask](https://img.shields.io/badge/-Flask-0d1117?style=for-the-badge&logo=flask&logoColor=00F0FF)
-![Django](https://img.shields.io/badge/-Django-0d1117?style=for-the-badge&logo=django&logoColor=B14AFF)
-![Odoo](https://img.shields.io/badge/-Odoo-0d1117?style=for-the-badge&logo=odoo&logoColor=00F0FF)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-0d1117?style=for-the-badge&logo=postgresql&logoColor=B14AFF)
-![Linux](https://img.shields.io/badge/-Linux-0d1117?style=for-the-badge&logo=linux&logoColor=00F0FF)
-![Git](https://img.shields.io/badge/-Git-0d1117?style=for-the-badge&logo=git&logoColor=B14AFF)
-![WebSocket](https://img.shields.io/badge/-WebSocket-0d1117?style=for-the-badge&logo=socketdotio&logoColor=00F0FF)
+![Python](https://img.shields.io/badge/-Python-000000?style=for-the-badge&logo=python&logoColor=00FF41)
+![Flask](https://img.shields.io/badge/-Flask-000000?style=for-the-badge&logo=flask&logoColor=00FF41)
+![Django](https://img.shields.io/badge/-Django-000000?style=for-the-badge&logo=django&logoColor=00FF41)
+![Odoo](https://img.shields.io/badge/-Odoo-000000?style=for-the-badge&logo=odoo&logoColor=00FF41)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=00FF41)
+![Linux](https://img.shields.io/badge/-Linux-000000?style=for-the-badge&logo=linux&logoColor=00FF41)
+![Git](https://img.shields.io/badge/-Git-000000?style=for-the-badge&logo=git&logoColor=00FF41)
+![WebSocket](https://img.shields.io/badge/-WebSocket-000000?style=for-the-badge&logo=socketdotio&logoColor=00FF41)
 
 </div>
 
 <br/>
 
-## ⚡ Featured Projects
+## `>_` Compiled Projects
+
+```bash
+$ ls -la ./projects/
+```
 
 <table>
 <tr>
 <td width="50%">
 
-### 🐕 [Rasco](https://github.com/AlirezaRg/Rasco-Gosi)
-AI desktop assistant with a custom animated avatar — controls your PC,
-opens apps/sites, manages files, and holds continuous conversation
-with memory, powered by Claude Code.
+**`/rasco`** 🐕
+> AI desktop assistant with a custom animated avatar.
+> Controls your PC, opens apps/sites, manages files,
+> holds continuous conversation with memory.
 
 `Python` `Tkinter` `Claude Code CLI`
+[→ open](https://github.com/AlirezaRg/Rasco-Gosi)
 
 </td>
 <td width="50%">
 
-### 🐑 [Gosi](https://github.com/AlirezaRg/Rasco-Gosi)
-AI coding assistant that scans your codebase, debugs files, answers
-questions about your project, and can directly edit files (with
-confirmation + automatic backup).
+**`/gosi`** 🐑
+> AI coding assistant. Scans your codebase, debugs
+> files, answers project questions, and can directly
+> edit files (with confirmation + auto-backup).
 
 `Python` `Tkinter` `Claude Code CLI`
+[→ open](https://github.com/AlirezaRg/Rasco-Gosi)
 
 </td>
 </tr>
 <tr>
 <td width="50%">
 
-### 🔄 [Ex-Change](https://github.com/AlirezaRg/Ex-Changes-Code)
-Desktop tool that translates source code between 13 programming
-languages using AI, producing clean, idiomatic, ready-to-run output.
+**`/ex-change`** 🔄
+> Translates source code between 13 programming
+> languages using AI — clean, idiomatic, ready-to-run
+> output.
 
 `Python` `Tkinter` `Claude Code CLI`
+[→ open](https://github.com/AlirezaRg/Ex-Changes-Code)
 
 </td>
 <td width="50%">
 
-### 🔍 [CodeAnalysis](https://github.com/AlirezaRg/code-analysis)
-Smart code search across an entire project using natural language —
-plus a full file-by-file explanation mode for understanding any
-unfamiliar codebase fast.
+**`/code-analysis`** 🔍
+> Natural-language code search across an entire
+> project, plus full file-by-file explanation mode.
 
 `Python` `Tkinter` `Claude Code CLI`
+[→ open](https://github.com/AlirezaRg/code-analysis)
 
 </td>
 </tr>
@@ -97,33 +122,42 @@ unfamiliar codebase fast.
 
 <br/>
 
-## 📊 GitHub Stats
+## `>_` System Stats
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=AlirezaRg&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=B14AFF&icon_color=00F0FF&text_color=c9d1d9" width="48%" />
-<img src="https://github-readme-streak-stats.demolab.com/?user=AlirezaRg&theme=radical&hide_border=true&background=0D1117&ring=B14AFF&fire=00F0FF&currStreakLabel=00F0FF" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api?username=AlirezaRg&show_icons=true&theme=matrix&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=c9d1d9" width="48%" />
+<img src="https://github-readme-streak-stats.demolab.com/?user=AlirezaRg&theme=highcontrast&hide_border=true&background=0D1117&ring=00FF41&fire=00FF41&currStreakLabel=00FF41" width="48%" />
 
 <br/>
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlirezaRg&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=B14AFF&text_color=c9d1d9" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlirezaRg&layout=compact&theme=matrix&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=c9d1d9" width="48%" />
 
 </div>
 
 <br/>
 
-## 📡 Connect
+## `>_` Open Connection
+
+```bash
+$ cat contact.txt
+```
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/your-linkedin-here">
-  <img src="https://img.shields.io/badge/-LinkedIn-0d1117?style=for-the-badge&logo=linkedin&logoColor=00F0FF" />
+<a href="https://www.linkedin.com/in/Alireza Rogni">
+  <img src="https://img.shields.io/badge/-LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00FF41" />
 </a>
 
 </div>
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,15&height=120&section=footer" />
+```
+$ exit
+process finished with exit code 0 — thanks for visiting
+```
+
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:00ff41,100:0d1117&height=120&section=footer" />
 
 </div>
