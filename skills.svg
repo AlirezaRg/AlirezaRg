@@ -1,0 +1,92 @@
+<svg width="900" height="348" viewBox="0 0 900 348" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#090c11"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Window -->
+  <rect width="900" height="348" rx="12" fill="url(#sBg)" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Title bar -->
+  <rect x="0" y="0" width="900" height="33" rx="12" fill="#161b22"/>
+  <rect x="0" y="21" width="900" height="12" fill="#161b22"/>
+  <line x1="0" y1="33" x2="900" y2="33" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Dots -->
+  <circle cx="22" cy="16.5" r="5.5" fill="#ff5f57"/>
+  <circle cx="42" cy="16.5" r="5.5" fill="#febc2e"/>
+  <circle cx="62" cy="16.5" r="5.5" fill="#28c840"/>
+
+  <!-- Title -->
+  <text x="450" y="21" font-family="'Courier New',monospace" font-size="11.5" fill="#6e7681" text-anchor="middle">root@AlirezaRg — skills.sh</text>
+
+  <!-- Command -->
+  <text y="56" font-family="'Courier New',monospace" font-size="13">
+    <tspan x="20" fill="#ff8c42">$</tspan><tspan fill="#c9d1d9"> cat skills.json | jq '.proficiency'</tspan>
+  </text>
+
+  <line x1="20" y1="66" x2="880" y2="66" stroke="#21262d" stroke-width="1"/>
+
+  <!-- Column headers -->
+  <text x="20"  y="84" font-family="'Courier New',monospace" font-size="11" fill="#6e7681">SKILL</text>
+  <text x="880" y="84" font-family="'Courier New',monospace" font-size="11" fill="#6e7681" text-anchor="end">LEVEL</text>
+
+  <!-- ── Row 1: Python 90% ── -->
+  <text x="20" y="114" font-family="'Courier New',monospace" font-size="13" fill="#c9d1d9">Python</text>
+  <rect x="200" y="103" width="640" height="12" rx="4" fill="#21262d"/>
+  <rect x="200" y="103" width="576" height="12" rx="4" fill="#3fb950" opacity="0.9">
+    <animate attributeName="width" from="0" to="576" dur="1.0s" begin="0.1s" fill="freeze"/>
+  </rect>
+  <text x="855" y="114" font-family="'Courier New',monospace" font-size="12" fill="#3fb950" text-anchor="end">90%</text>
+
+  <!-- ── Row 2: Flask 85% ── -->
+  <text x="20" y="148" font-family="'Courier New',monospace" font-size="13" fill="#c9d1d9">Flask</text>
+  <rect x="200" y="137" width="640" height="12" rx="4" fill="#21262d"/>
+  <rect x="200" y="137" width="544" height="12" rx="4" fill="#ff8c42" opacity="0.9">
+    <animate attributeName="width" from="0" to="544" dur="1.0s" begin="0.25s" fill="freeze"/>
+  </rect>
+  <text x="855" y="148" font-family="'Courier New',monospace" font-size="12" fill="#ff8c42" text-anchor="end">85%</text>
+
+  <!-- ── Row 3: Linux 85% ── -->
+  <text x="20" y="182" font-family="'Courier New',monospace" font-size="13" fill="#c9d1d9">Linux</text>
+  <rect x="200" y="171" width="640" height="12" rx="4" fill="#21262d"/>
+  <rect x="200" y="171" width="544" height="12" rx="4" fill="#58a6ff" opacity="0.9">
+    <animate attributeName="width" from="0" to="544" dur="1.0s" begin="0.4s" fill="freeze"/>
+  </rect>
+  <text x="855" y="182" font-family="'Courier New',monospace" font-size="12" fill="#58a6ff" text-anchor="end">85%</text>
+
+  <!-- ── Row 4: Claude Code / AI Automation 93% ── -->
+  <text x="20" y="216" font-family="'Courier New',monospace" font-size="13" fill="#c9d1d9">AI Automation</text>
+  <rect x="200" y="205" width="640" height="12" rx="4" fill="#21262d"/>
+  <rect x="200" y="205" width="595" height="12" rx="4" fill="#ff2e2e" opacity="0.9">
+    <animate attributeName="width" from="0" to="595" dur="1.0s" begin="0.55s" fill="freeze"/>
+  </rect>
+  <text x="855" y="216" font-family="'Courier New',monospace" font-size="12" fill="#ff2e2e" text-anchor="end">93%</text>
+
+  <!-- ── Row 5: Odoo/ERP 80% ── -->
+  <text x="20" y="250" font-family="'Courier New',monospace" font-size="13" fill="#c9d1d9">Odoo / ERP</text>
+  <rect x="200" y="239" width="640" height="12" rx="4" fill="#21262d"/>
+  <rect x="200" y="239" width="512" height="12" rx="4" fill="#e3b341" opacity="0.9">
+    <animate attributeName="width" from="0" to="512" dur="1.0s" begin="0.7s" fill="freeze"/>
+  </rect>
+  <text x="855" y="250" font-family="'Courier New',monospace" font-size="12" fill="#e3b341" text-anchor="end">80%</text>
+
+  <!-- ── Row 6: Django 75% ── -->
+  <text x="20" y="284" font-family="'Courier New',monospace" font-size="13" fill="#c9d1d9">Django</text>
+  <rect x="200" y="273" width="640" height="12" rx="4" fill="#21262d"/>
+  <rect x="200" y="273" width="480" height="12" rx="4" fill="#bc8cff" opacity="0.9">
+    <animate attributeName="width" from="0" to="480" dur="1.0s" begin="0.85s" fill="freeze"/>
+  </rect>
+  <text x="855" y="284" font-family="'Courier New',monospace" font-size="12" fill="#bc8cff" text-anchor="end">75%</text>
+
+  <!-- ── Row 7: PostgreSQL 70% ── -->
+  <text x="20" y="318" font-family="'Courier New',monospace" font-size="13" fill="#c9d1d9">PostgreSQL</text>
+  <rect x="200" y="307" width="640" height="12" rx="4" fill="#21262d"/>
+  <rect x="200" y="307" width="448" height="12" rx="4" fill="#79c0ff" opacity="0.9">
+    <animate attributeName="width" from="0" to="448" dur="1.0s" begin="1.0s" fill="freeze"/>
+  </rect>
+  <text x="855" y="318" font-family="'Courier New',monospace" font-size="12" fill="#79c0ff" text-anchor="end">70%</text>
+
+</svg>

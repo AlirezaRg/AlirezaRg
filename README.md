@@ -9,7 +9,7 @@
 ## `>_` System Log + Active Processes
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/main/terminal-showcase.svg" width="900" alt="Terminal showcase" />
+<img src="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/main/terminal-showcase.svg" width="900" alt="Terminal" />
 </div>
 
 <br/>
@@ -29,6 +29,14 @@
 ![Claude](https://img.shields.io/badge/-Claude%20Code-000000?style=for-the-badge&logo=anthropic&logoColor=FF2E2E)
 ![Tkinter](https://img.shields.io/badge/-Tkinter-000000?style=for-the-badge&logo=python&logoColor=FF2E2E)
 
+</div>
+
+<br/>
+
+## `>_` Skill Proficiency
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/main/skills.svg" width="900" alt="Skills" />
 </div>
 
 <br/>
@@ -70,9 +78,19 @@
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlirezaRg&layout=compact&theme=dark&hide_border=true&bg_color=1A0606&title_color=FF2E2E&text_color=c9d1d9&langs_count=8" width="48%" />
 
-<br/><br/>
+</div>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AlirezaRg&theme=react-dark&bg_color=1a0606&color=ff2e2e&line=ff2e2e&point=ff8c42&area=true&hide_border=true" width="98%" />
+<br/>
+
+## `>_` Contribution Map
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/output/github-contribution-grid-snake.svg">
+  <img alt="contribution snake" src="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/output/github-contribution-grid-snake-dark.svg">
+</picture>
 
 </div>
 
