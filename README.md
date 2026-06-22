@@ -6,37 +6,11 @@
 
 ---
 
-## `>_` System Log: Current Build
+## `>_` System Log + Active Processes
 
-```bash
-$ ./describe_me.sh
-
-[INFO] Backend dev focused on Python, Flask, and Django.
-[INFO] Currently integrating biometric attendance hardware
-       with Odoo 18 via a custom Flask middleware.
-[INFO] Side projects: AI desktop assistants powered by
-       Claude Code — built for real productivity, not demos.
-[INFO] Studying Computer Engineering. Applying coursework
-       directly to production code whenever possible.
-
-[STATUS] Process running... Press Ctrl+C to interrupt (you can't, I'm shipping)
-```
-
-<br/>
-
-## `>_` Active Processes
-
-```
-$ ps aux --sort=-priority | head
-
- PID   PROCESS                     STATUS     LOAD
- 001   odoo18-flask-middleware      RUNNING    ██████████░░░░  72%
- 002   rasco-gosi-ai-assistant      ACTIVE     ████████░░░░░░  58%
- 003   computer-engineering-bsc     STUDYING   ██████░░░░░░░░  44%
- 004   new-ideas-compiler           ALWAYS     ████████████░░  89%
-
-[NOTE] kill: permission denied — all processes are essential
-```
+<div align="center">
+<img src="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/main/terminal-showcase.svg" width="900" alt="Terminal showcase" />
+</div>
 
 <br/>
 
@@ -71,59 +45,17 @@ $ ps aux --sort=-priority | head
 
 ## `>_` Compiled Projects
 
-```bash
-$ ls -la ./projects/
-```
+<div align="center">
+<img src="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/main/projects-grid.svg" width="900" alt="Projects" />
+</div>
 
-<table>
-<tr>
-<td width="50%">
+<div align="center">
 
-**`/rasco`** 🐕
-> AI desktop assistant with a custom animated avatar.
-> Controls your PC, opens apps/sites, manages files,
-> holds continuous conversation with memory.
+[Rasco & Gosi](https://github.com/AlirezaRg/Rasco-Gosi) &nbsp;·&nbsp;
+[Ex-Change](https://github.com/AlirezaRg/Ex-Changes-Code) &nbsp;·&nbsp;
+[Code Analysis](https://github.com/AlirezaRg/code-analysis)
 
-`Python` `Tkinter` `Claude Code CLI`
-[→ open](https://github.com/AlirezaRg/Rasco-Gosi)
-
-</td>
-<td width="50%">
-
-**`/gosi`** 🐑
-> AI coding assistant. Scans your codebase, debugs
-> files, answers project questions, and can directly
-> edit files (with confirmation + auto-backup).
-
-`Python` `Tkinter` `Claude Code CLI`
-[→ open](https://github.com/AlirezaRg/Rasco-Gosi)
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**`/ex-change`** 🔄
-> Translates source code between 13 programming
-> languages using AI — clean, idiomatic, ready-to-run
-> output.
-
-`Python` `Tkinter` `Claude Code CLI`
-[→ open](https://github.com/AlirezaRg/Ex-Changes-Code)
-
-</td>
-<td width="50%">
-
-**`/code-analysis`** 🔍
-> Natural-language code search across an entire
-> project, plus full file-by-file explanation mode.
-
-`Python` `Tkinter` `Claude Code CLI`
-[→ open](https://github.com/AlirezaRg/code-analysis)
-
-</td>
-</tr>
-</table>
+</div>
 
 <br/>
 
@@ -167,7 +99,5 @@ $ cat contact.txt
 </div>
 
 <br/>
-
-<img src="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/main/intro-banner.svg" width="100%" style="opacity:0.3" alt="" />
 
 </div>
