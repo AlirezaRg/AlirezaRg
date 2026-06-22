@@ -4,22 +4,9 @@
 
 <br/>
 
-```
-┌──────────────────────────────────────────────────────┐
-│  SYSTEM IDENTIFIED                                    │
-│  > whoami                                             │
-│  alireza_dev                                          │
-│                                                        │
-│  > cat role.txt                                       │
-│  Full-Stack Developer (Freelance)                     │
-│  Python · Flask · Django · Odoo Integrations          │
-│                                                        │
-│  > status --check                                     │
-│  [OK] Studying Computer Engineering                   │
-│  [OK] Building AI-powered desktop tools                │
-│  [OK] Open for backend / automation projects          │
-└──────────────────────────────────────────────────────┘
-```
+<img src="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/main/intro-banner.svg" width="700" alt="Animated intro banner" />
+
+<br/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=900&color=00D4FF&center=true&vCenter=true&width=650&lines=Connecting+hardware+to+enterprise+software;Building+Flask+%2B+Odoo+middleware+systems;Automating+workflows+with+Claude+Code;Always+compiling+new+ideas..." />
 
