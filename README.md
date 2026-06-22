@@ -1,18 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:1a0606,100:ff2e2e&height=200&section=header&text=root@AlirezaRg:~$&fontSize=38&fontColor=ff2e2e&fontAlignY=50&animation=twinkling" />
-
-<br/>
-
 <img src="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/main/intro-banner.svg" width="820" alt="Animated intro banner" />
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=2800&pause=900&color=FF2E2E&center=true&vCenter=true&width=650&lines=Connecting+hardware+to+enterprise+software;Building+Flask+%2B+Odoo+middleware+systems;Automating+workflows+with+Claude+Code;Always+compiling+new+ideas..." />
-
-<br/>
-
-![Profile Views](https://visitcount.itsvg.in/api?id=AlirezaRg&label=Profile%20Views&color=6&icon=5&pretty=true)
 
 </div>
 
@@ -75,7 +63,7 @@ $ ps aux --sort=-priority | head
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=AlirezaRg&theme=radical&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" />
+<img src="https://github-profile-trophy.vercel.app/?username=AlirezaRg&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" />
 
 </div>
 
@@ -180,6 +168,6 @@ $ cat contact.txt
 
 <br/>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:ff2e2e,100:1a0606&height=120&section=footer" />
+<img src="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/main/intro-banner.svg" width="100%" style="opacity:0.3" alt="" />
 
 </div>
