@@ -1,4 +1,4 @@
-<svg width="900" height="360" viewBox="0 0 900 360" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
 
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -20,132 +20,125 @@
     </linearGradient>
   </defs>
 
-  <!-- Full-bleed background fills the ENTIRE canvas, so no edge can ever show as empty/white -->
-  <rect x="0" y="0" width="900" height="360" fill="url(#bgGrad)" />
+  <rect x="0" y="0" width="900" height="220" fill="url(#bgGrad)" />
 
-  <!-- ambient glow behind robot -->
-  <circle cx="150" cy="180" r="140" fill="url(#glowGrad)">
-    <animate attributeName="r" values="130;150;130" dur="3s" repeatCount="indefinite" />
-  </circle>
-
-  <!-- floating particles, all safely inside margins -->
-  <circle cx="780" cy="70" r="3" fill="#00d4ff" opacity="0.7">
-    <animate attributeName="cy" values="70;55;70" dur="4s" repeatCount="indefinite" />
-  </circle>
-  <circle cx="830" cy="110" r="2" fill="#ff6bd6" opacity="0.7">
-    <animate attributeName="cy" values="110;95;110" dur="3.4s" repeatCount="indefinite" />
-  </circle>
-  <circle cx="760" cy="290" r="2.5" fill="#b14aff" opacity="0.6">
-    <animate attributeName="cy" values="290;275;290" dur="3.8s" repeatCount="indefinite" />
-  </circle>
-  <circle cx="850" cy="250" r="2" fill="#00d4ff" opacity="0.5">
-    <animate attributeName="cy" values="250;238;250" dur="3.1s" repeatCount="indefinite" />
+  <!-- ambient glow -->
+  <circle cx="115" cy="110" r="95" fill="url(#glowGrad)">
+    <animate attributeName="r" values="88;100;88" dur="3s" repeatCount="indefinite" />
   </circle>
 
-  <!-- ══════════════════════════════════════════════ -->
-  <!-- ROBOT — entirely within y=60 to y=300 (240px of a 360px canvas, generous margin) -->
-  <!-- ══════════════════════════════════════════════ -->
-  <g transform="translate(150,180)">
+  <!-- floating particles -->
+  <circle cx="780" cy="40" r="3" fill="#00d4ff" opacity="0.7">
+    <animate attributeName="cy" values="40;28;40" dur="4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="830" cy="65" r="2" fill="#ff6bd6" opacity="0.7">
+    <animate attributeName="cy" values="65;53;65" dur="3.4s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="760" cy="175" r="2.5" fill="#b14aff" opacity="0.6">
+    <animate attributeName="cy" values="175;163;175" dur="3.8s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="850" cy="150" r="2" fill="#00d4ff" opacity="0.5">
+    <animate attributeName="cy" values="150;140;150" dur="3.1s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- ROBOT — compact, fully inside y=30 to y=190 of a 220px canvas -->
+  <g transform="translate(115,110)">
     <animateTransform attributeName="transform" type="translate" additive="sum"
-      values="150,180; 150,174; 150,180" dur="3s" repeatCount="indefinite" />
+      values="115,110; 115,105; 115,110" dur="3s" repeatCount="indefinite" />
 
-    <!-- antenna: top at relative y = -100, i.e. absolute y = 80 -->
-    <line x1="0" y1="-66" x2="0" y2="-94" stroke="#00d4ff" stroke-width="3" stroke-linecap="round" />
-    <circle cx="0" cy="-100" r="7" fill="#ff6bd6">
+    <!-- antenna -->
+    <line x1="0" y1="-46" x2="0" y2="-62" stroke="#00d4ff" stroke-width="2.5" stroke-linecap="round" />
+    <circle cx="0" cy="-66" r="5" fill="#ff6bd6">
       <animate attributeName="fill" values="#ff6bd6;#00d4ff;#b14aff;#ff6bd6" dur="2.4s" repeatCount="indefinite" />
     </circle>
 
     <!-- head -->
-    <rect x="-55" y="-66" width="110" height="96" rx="24" fill="url(#botGrad)" />
-    <rect x="-55" y="-66" width="110" height="96" rx="24" fill="#0d1117" opacity="0.18" />
+    <rect x="-40" y="-46" width="80" height="70" rx="18" fill="url(#botGrad)" />
+    <rect x="-40" y="-46" width="80" height="70" rx="18" fill="#0d1117" opacity="0.18" />
 
     <!-- face plate -->
-    <rect x="-42" y="-50" width="84" height="60" rx="16" fill="#0a0716" />
+    <rect x="-30" y="-34" width="60" height="44" rx="12" fill="#0a0716" />
 
     <!-- eyes -->
-    <circle cx="-18" cy="-20" r="8" fill="#00d4ff">
-      <animate attributeName="r" values="8;8;1;8" keyTimes="0;0.92;0.96;1" dur="4s" repeatCount="indefinite" />
+    <circle cx="-13" cy="-13" r="6" fill="#00d4ff">
+      <animate attributeName="r" values="6;6;1;6" keyTimes="0;0.92;0.96;1" dur="4s" repeatCount="indefinite" />
     </circle>
-    <circle cx="18" cy="-20" r="8" fill="#00d4ff">
-      <animate attributeName="r" values="8;8;1;8" keyTimes="0;0.92;0.96;1" dur="4s" repeatCount="indefinite" />
+    <circle cx="13" cy="-13" r="6" fill="#00d4ff">
+      <animate attributeName="r" values="6;6;1;6" keyTimes="0;0.92;0.96;1" dur="4s" repeatCount="indefinite" />
     </circle>
 
     <!-- mouth -->
-    <rect x="-18" y="4" width="36" height="6" rx="3" fill="#ff6bd6" />
+    <rect x="-13" y="2" width="26" height="5" rx="2.5" fill="#ff6bd6" />
 
-    <!-- ears / side bolts -->
-    <circle cx="-60" cy="-20" r="6" fill="#00d4ff" opacity="0.85" />
-    <circle cx="60" cy="-20" r="6" fill="#b14aff" opacity="0.85" />
+    <!-- ears -->
+    <circle cx="-44" cy="-13" r="5" fill="#00d4ff" opacity="0.85" />
+    <circle cx="44" cy="-13" r="5" fill="#b14aff" opacity="0.85" />
 
-    <!-- neck + body, bottom at relative y = +70, i.e. absolute y = 250 -->
-    <rect x="-14" y="30" width="28" height="14" fill="url(#botGrad)" opacity="0.7" />
-    <rect x="-34" y="44" width="68" height="26" rx="12" fill="url(#botGrad)" opacity="0.85" />
+    <!-- neck + body -->
+    <rect x="-10" y="24" width="20" height="10" fill="url(#botGrad)" opacity="0.7" />
+    <rect x="-26" y="34" width="52" height="20" rx="9" fill="url(#botGrad)" opacity="0.85" />
   </g>
-  <!-- robot absolute bounds: top y=80, bottom y=250 — well inside the 0-360 canvas -->
+  <!-- robot absolute bounds: top y=34, bottom y=164 — comfortably inside 0-220 -->
 
-  <!-- ══════════════════════════════════════════════ -->
-  <!-- SPEECH BUBBLE — placed in its own clear region, not overlapping robot's bounds -->
-  <!-- ══════════════════════════════════════════════ -->
-  <path d="M 225 165 L 258 148 L 258 182 Z" fill="url(#bubbleGrad)" stroke="#00d4ff" stroke-width="1.6" />
+  <!-- SPEECH BUBBLE -->
+  <path d="M 188 100 L 216 86 L 216 116 Z" fill="url(#bubbleGrad)" stroke="#00d4ff" stroke-width="1.4" />
 
-  <rect x="258" y="70" width="600" height="200" rx="18" fill="url(#bubbleGrad)" stroke="#00d4ff" stroke-width="1.6" />
-  <rect x="258" y="70" width="600" height="6" rx="3" fill="url(#botGrad)" opacity="0.9" />
-
-  <!-- Each message visible for 4s out of a 20s loop -->
+  <rect x="216" y="35" width="640" height="150" rx="16" fill="url(#bubbleGrad)" stroke="#00d4ff" stroke-width="1.4" />
+  <rect x="216" y="35" width="640" height="5" rx="2.5" fill="url(#botGrad)" opacity="0.9" />
 
   <!-- Line 1: 0s - 4s -->
-  <text x="284" y="118" font-family="Fira Code, Courier New, monospace" font-size="17" fill="#f0eaff" opacity="0">
+  <text x="240" y="74" font-family="Fira Code, Courier New, monospace" font-size="15" fill="#f0eaff" opacity="0">
     <animate attributeName="opacity"
       values="1;1;0;0;0;0;0;0;0;0;1"
       keyTimes="0;0.18;0.20;0.38;0.40;0.58;0.60;0.78;0.80;0.98;1"
       dur="20s" repeatCount="indefinite" />
-    <tspan x="284" dy="0" fill="#00d4ff">$ whoami</tspan>
-    <tspan x="284" dy="32">Hi, I'm Alireza — born in 1998.</tspan>
-    <tspan x="284" dy="30">Programmer &amp; Linux enthusiast.</tspan>
+    <tspan x="240" dy="0" fill="#00d4ff">$ whoami</tspan>
+    <tspan x="240" dy="27">Hi, I'm Alireza — born in 1998.</tspan>
+    <tspan x="240" dy="25">Programmer &amp; Linux enthusiast.</tspan>
   </text>
 
   <!-- Line 2: 4s - 8s -->
-  <text x="284" y="118" font-family="Fira Code, Courier New, monospace" font-size="17" fill="#f0eaff" opacity="0">
+  <text x="240" y="74" font-family="Fira Code, Courier New, monospace" font-size="15" fill="#f0eaff" opacity="0">
     <animate attributeName="opacity"
       values="0;0;1;1;0;0;0;0;0;0;0"
       keyTimes="0;0.18;0.20;0.38;0.40;0.58;0.60;0.78;0.80;0.98;1"
       dur="20s" repeatCount="indefinite" />
-    <tspan x="284" dy="0" fill="#b14aff">$ ls ./projects/rasco</tspan>
-    <tspan x="284" dy="32">🐕 Rasco — AI desktop assistant</tspan>
-    <tspan x="284" dy="30">   controls your PC, remembers context.</tspan>
+    <tspan x="240" dy="0" fill="#b14aff">$ ls ./projects/rasco</tspan>
+    <tspan x="240" dy="27">🐕 Rasco — AI desktop assistant</tspan>
+    <tspan x="240" dy="25">   controls your PC, remembers context.</tspan>
   </text>
 
   <!-- Line 3: 8s - 12s -->
-  <text x="284" y="118" font-family="Fira Code, Courier New, monospace" font-size="17" fill="#f0eaff" opacity="0">
+  <text x="240" y="74" font-family="Fira Code, Courier New, monospace" font-size="15" fill="#f0eaff" opacity="0">
     <animate attributeName="opacity"
       values="0;0;0;0;1;1;0;0;0;0;0"
       keyTimes="0;0.18;0.20;0.38;0.40;0.58;0.60;0.78;0.80;0.98;1"
       dur="20s" repeatCount="indefinite" />
-    <tspan x="284" dy="0" fill="#ff6bd6">$ ls ./projects/gosi</tspan>
-    <tspan x="284" dy="32">🐑 Gosi — AI coding assistant</tspan>
-    <tspan x="284" dy="30">   debugs &amp; edits your files directly.</tspan>
+    <tspan x="240" dy="0" fill="#ff6bd6">$ ls ./projects/gosi</tspan>
+    <tspan x="240" dy="27">🐑 Gosi — AI coding assistant</tspan>
+    <tspan x="240" dy="25">   debugs &amp; edits your files directly.</tspan>
   </text>
 
   <!-- Line 4: 12s - 16s -->
-  <text x="284" y="118" font-family="Fira Code, Courier New, monospace" font-size="17" fill="#f0eaff" opacity="0">
+  <text x="240" y="74" font-family="Fira Code, Courier New, monospace" font-size="15" fill="#f0eaff" opacity="0">
     <animate attributeName="opacity"
       values="0;0;0;0;0;0;1;1;0;0;0"
       keyTimes="0;0.18;0.20;0.38;0.40;0.58;0.60;0.78;0.80;0.98;1"
       dur="20s" repeatCount="indefinite" />
-    <tspan x="284" dy="0" fill="#00d4ff">$ ls ./projects/ex-change</tspan>
-    <tspan x="284" dy="32">🔄 Ex-Change — code translator</tspan>
-    <tspan x="284" dy="30">   converts code across 13 languages.</tspan>
+    <tspan x="240" dy="0" fill="#00d4ff">$ ls ./projects/ex-change</tspan>
+    <tspan x="240" dy="27">🔄 Ex-Change — code translator</tspan>
+    <tspan x="240" dy="25">   converts code across 13 languages.</tspan>
   </text>
 
   <!-- Line 5: 16s - 20s -->
-  <text x="284" y="118" font-family="Fira Code, Courier New, monospace" font-size="17" fill="#f0eaff" opacity="0">
+  <text x="240" y="74" font-family="Fira Code, Courier New, monospace" font-size="15" fill="#f0eaff" opacity="0">
     <animate attributeName="opacity"
       values="0;0;0;0;0;0;0;0;1;1;0"
       keyTimes="0;0.18;0.20;0.38;0.40;0.58;0.60;0.78;0.80;0.98;1"
       dur="20s" repeatCount="indefinite" />
-    <tspan x="284" dy="0" fill="#b14aff">$ ls ./projects/code-analysis</tspan>
-    <tspan x="284" dy="32">🔍 CodeAnalysis — smart code search</tspan>
-    <tspan x="284" dy="30">   finds &amp; explains anything in your repo.</tspan>
+    <tspan x="240" dy="0" fill="#b14aff">$ ls ./projects/code-analysis</tspan>
+    <tspan x="240" dy="27">🔍 CodeAnalysis — smart code search</tspan>
+    <tspan x="240" dy="25">   finds &amp; explains anything in your repo.</tspan>
   </text>
 
 </svg>
