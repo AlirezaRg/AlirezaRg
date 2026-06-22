@@ -41,104 +41,105 @@
     <animate attributeName="cy" values="150;140;150" dur="3.1s" repeatCount="indefinite" />
   </circle>
 
-  <!-- ROBOT — compact, fully inside y=30 to y=190 of a 220px canvas -->
-  <g transform="translate(115,110)">
+  <!-- ROBOT — face concentrated near the top of the canvas for safety against any cropping -->
+  <g transform="translate(110,80)">
     <animateTransform attributeName="transform" type="translate" additive="sum"
-      values="115,110; 115,105; 115,110" dur="3s" repeatCount="indefinite" />
+      values="110,80; 110,76; 110,80" dur="3s" repeatCount="indefinite" />
 
     <!-- antenna -->
-    <line x1="0" y1="-46" x2="0" y2="-62" stroke="#00d4ff" stroke-width="2.5" stroke-linecap="round" />
-    <circle cx="0" cy="-66" r="5" fill="#ff6bd6">
+    <line x1="0" y1="-40" x2="0" y2="-54" stroke="#00d4ff" stroke-width="2.5" stroke-linecap="round" />
+    <circle cx="0" cy="-58" r="5" fill="#ff6bd6">
       <animate attributeName="fill" values="#ff6bd6;#00d4ff;#b14aff;#ff6bd6" dur="2.4s" repeatCount="indefinite" />
     </circle>
 
     <!-- head -->
-    <rect x="-40" y="-46" width="80" height="70" rx="18" fill="url(#botGrad)" />
-    <rect x="-40" y="-46" width="80" height="70" rx="18" fill="#0d1117" opacity="0.18" />
+    <rect x="-38" y="-40" width="76" height="64" rx="17" fill="url(#botGrad)" />
+    <rect x="-38" y="-40" width="76" height="64" rx="17" fill="#0d1117" opacity="0.18" />
 
     <!-- face plate -->
-    <rect x="-30" y="-34" width="60" height="44" rx="12" fill="#0a0716" />
+    <rect x="-28" y="-30" width="56" height="40" rx="11" fill="#0a0716" />
 
     <!-- eyes -->
-    <circle cx="-13" cy="-13" r="6" fill="#00d4ff">
+    <circle cx="-12" cy="-12" r="6" fill="#00d4ff">
       <animate attributeName="r" values="6;6;1;6" keyTimes="0;0.92;0.96;1" dur="4s" repeatCount="indefinite" />
     </circle>
-    <circle cx="13" cy="-13" r="6" fill="#00d4ff">
+    <circle cx="12" cy="-12" r="6" fill="#00d4ff">
       <animate attributeName="r" values="6;6;1;6" keyTimes="0;0.92;0.96;1" dur="4s" repeatCount="indefinite" />
     </circle>
 
     <!-- mouth -->
-    <rect x="-13" y="2" width="26" height="5" rx="2.5" fill="#ff6bd6" />
+    <rect x="-12" y="2" width="24" height="5" rx="2.5" fill="#ff6bd6" />
 
     <!-- ears -->
-    <circle cx="-44" cy="-13" r="5" fill="#00d4ff" opacity="0.85" />
-    <circle cx="44" cy="-13" r="5" fill="#b14aff" opacity="0.85" />
+    <circle cx="-42" cy="-12" r="5" fill="#00d4ff" opacity="0.85" />
+    <circle cx="42" cy="-12" r="5" fill="#b14aff" opacity="0.85" />
 
-    <!-- neck + body -->
-    <rect x="-10" y="24" width="20" height="10" fill="url(#botGrad)" opacity="0.7" />
-    <rect x="-26" y="34" width="52" height="20" rx="9" fill="url(#botGrad)" opacity="0.85" />
+    <!-- neck + body (allowed to sit lower, non-critical if slightly cropped) -->
+    <rect x="-9" y="22" width="18" height="9" fill="url(#botGrad)" opacity="0.7" />
+    <rect x="-24" y="31" width="48" height="18" rx="8" fill="url(#botGrad)" opacity="0.85" />
   </g>
-  <!-- robot absolute bounds: top y=34, bottom y=164 — comfortably inside 0-220 -->
+  <!-- robot face (critical area) absolute bounds: top y=22, bottom y=58 -->
+  <!-- robot body (non-critical) absolute bounds: down to y=111 -->
 
   <!-- SPEECH BUBBLE -->
-  <path d="M 188 100 L 216 86 L 216 116 Z" fill="url(#bubbleGrad)" stroke="#00d4ff" stroke-width="1.4" />
+  <path d="M 184 70 L 212 56 L 212 86 Z" fill="url(#bubbleGrad)" stroke="#00d4ff" stroke-width="1.4" />
 
-  <rect x="216" y="35" width="640" height="150" rx="16" fill="url(#bubbleGrad)" stroke="#00d4ff" stroke-width="1.4" />
-  <rect x="216" y="35" width="640" height="5" rx="2.5" fill="url(#botGrad)" opacity="0.9" />
+  <rect x="212" y="14" width="640" height="150" rx="16" fill="url(#bubbleGrad)" stroke="#00d4ff" stroke-width="1.4" />
+  <rect x="212" y="14" width="640" height="5" rx="2.5" fill="url(#botGrad)" opacity="0.9" />
 
   <!-- Line 1: 0s - 4s -->
-  <text x="240" y="74" font-family="Fira Code, Courier New, monospace" font-size="15" fill="#f0eaff" opacity="0">
+  <text x="236" y="50" font-family="Fira Code, Courier New, monospace" font-size="15" fill="#f0eaff" opacity="0">
     <animate attributeName="opacity"
       values="1;1;0;0;0;0;0;0;0;0;1"
       keyTimes="0;0.18;0.20;0.38;0.40;0.58;0.60;0.78;0.80;0.98;1"
       dur="20s" repeatCount="indefinite" />
-    <tspan x="240" dy="0" fill="#00d4ff">$ whoami</tspan>
-    <tspan x="240" dy="27">Hi, I'm Alireza — born in 1998.</tspan>
-    <tspan x="240" dy="25">Programmer &amp; Linux enthusiast.</tspan>
+    <tspan x="236" dy="0" fill="#00d4ff">$ whoami</tspan>
+    <tspan x="236" dy="27">Hi, I'm Alireza — born in 1998.</tspan>
+    <tspan x="236" dy="25">Programmer &amp; Linux enthusiast.</tspan>
   </text>
 
   <!-- Line 2: 4s - 8s -->
-  <text x="240" y="74" font-family="Fira Code, Courier New, monospace" font-size="15" fill="#f0eaff" opacity="0">
+  <text x="236" y="50" font-family="Fira Code, Courier New, monospace" font-size="15" fill="#f0eaff" opacity="0">
     <animate attributeName="opacity"
       values="0;0;1;1;0;0;0;0;0;0;0"
       keyTimes="0;0.18;0.20;0.38;0.40;0.58;0.60;0.78;0.80;0.98;1"
       dur="20s" repeatCount="indefinite" />
-    <tspan x="240" dy="0" fill="#b14aff">$ ls ./projects/rasco</tspan>
-    <tspan x="240" dy="27">🐕 Rasco — AI desktop assistant</tspan>
-    <tspan x="240" dy="25">   controls your PC, remembers context.</tspan>
+    <tspan x="236" dy="0" fill="#b14aff">$ ls ./projects/rasco</tspan>
+    <tspan x="236" dy="27">🐕 Rasco — AI desktop assistant</tspan>
+    <tspan x="236" dy="25">   controls your PC, remembers context.</tspan>
   </text>
 
   <!-- Line 3: 8s - 12s -->
-  <text x="240" y="74" font-family="Fira Code, Courier New, monospace" font-size="15" fill="#f0eaff" opacity="0">
+  <text x="236" y="50" font-family="Fira Code, Courier New, monospace" font-size="15" fill="#f0eaff" opacity="0">
     <animate attributeName="opacity"
       values="0;0;0;0;1;1;0;0;0;0;0"
       keyTimes="0;0.18;0.20;0.38;0.40;0.58;0.60;0.78;0.80;0.98;1"
       dur="20s" repeatCount="indefinite" />
-    <tspan x="240" dy="0" fill="#ff6bd6">$ ls ./projects/gosi</tspan>
-    <tspan x="240" dy="27">🐑 Gosi — AI coding assistant</tspan>
-    <tspan x="240" dy="25">   debugs &amp; edits your files directly.</tspan>
+    <tspan x="236" dy="0" fill="#ff6bd6">$ ls ./projects/gosi</tspan>
+    <tspan x="236" dy="27">🐑 Gosi — AI coding assistant</tspan>
+    <tspan x="236" dy="25">   debugs &amp; edits your files directly.</tspan>
   </text>
 
   <!-- Line 4: 12s - 16s -->
-  <text x="240" y="74" font-family="Fira Code, Courier New, monospace" font-size="15" fill="#f0eaff" opacity="0">
+  <text x="236" y="50" font-family="Fira Code, Courier New, monospace" font-size="15" fill="#f0eaff" opacity="0">
     <animate attributeName="opacity"
       values="0;0;0;0;0;0;1;1;0;0;0"
       keyTimes="0;0.18;0.20;0.38;0.40;0.58;0.60;0.78;0.80;0.98;1"
       dur="20s" repeatCount="indefinite" />
-    <tspan x="240" dy="0" fill="#00d4ff">$ ls ./projects/ex-change</tspan>
-    <tspan x="240" dy="27">🔄 Ex-Change — code translator</tspan>
-    <tspan x="240" dy="25">   converts code across 13 languages.</tspan>
+    <tspan x="236" dy="0" fill="#00d4ff">$ ls ./projects/ex-change</tspan>
+    <tspan x="236" dy="27">🔄 Ex-Change — code translator</tspan>
+    <tspan x="236" dy="25">   converts code across 13 languages.</tspan>
   </text>
 
   <!-- Line 5: 16s - 20s -->
-  <text x="240" y="74" font-family="Fira Code, Courier New, monospace" font-size="15" fill="#f0eaff" opacity="0">
+  <text x="236" y="50" font-family="Fira Code, Courier New, monospace" font-size="15" fill="#f0eaff" opacity="0">
     <animate attributeName="opacity"
       values="0;0;0;0;0;0;0;0;1;1;0"
       keyTimes="0;0.18;0.20;0.38;0.40;0.58;0.60;0.78;0.80;0.98;1"
       dur="20s" repeatCount="indefinite" />
-    <tspan x="240" dy="0" fill="#b14aff">$ ls ./projects/code-analysis</tspan>
-    <tspan x="240" dy="27">🔍 CodeAnalysis — smart code search</tspan>
-    <tspan x="240" dy="25">   finds &amp; explains anything in your repo.</tspan>
+    <tspan x="236" dy="0" fill="#b14aff">$ ls ./projects/code-analysis</tspan>
+    <tspan x="236" dy="27">🔍 CodeAnalysis — smart code search</tspan>
+    <tspan x="236" dy="25">   finds &amp; explains anything in your repo.</tspan>
   </text>
 
 </svg>
