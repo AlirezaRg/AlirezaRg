@@ -1,0 +1,8 @@
+merged.json
+__pycache__/
+_qa*
+_s_*
+_p*.html
+_shot_*
+preview-*.png
+_try-*

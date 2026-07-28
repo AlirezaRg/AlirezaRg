@@ -1,125 +1,77 @@
-<div align="center">
+<!-- ===== HERO BANNER ===== -->
+<!-- Regenerate with: python .github/scripts/generate_banner.py portrait-src.png dark.svg photo -->
 
-<img src="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/main/intro-banner.svg" width="820" alt="Animated intro banner" />
+<img alt="Alireza Rogni" src="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/main/dark.svg">
 
-</div>
-
----
-
-## `>_` System Log + Active Processes
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/main/terminal-showcase.svg" width="900" alt="Terminal" />
-</div>
-
-<br/>
-
-## `>_` Tech Stack
+<!-- ===== GITHUB STATS ===== -->
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/-Python-000000?style=for-the-badge&logo=python&logoColor=FF2E2E)
-![Flask](https://img.shields.io/badge/-Flask-000000?style=for-the-badge&logo=flask&logoColor=FF2E2E)
-![Django](https://img.shields.io/badge/-Django-000000?style=for-the-badge&logo=django&logoColor=FF2E2E)
-![Odoo](https://img.shields.io/badge/-Odoo-000000?style=for-the-badge&logo=odoo&logoColor=FF2E2E)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-000000?style=for-the-badge&logo=postgresql&logoColor=FF2E2E)
-![Linux](https://img.shields.io/badge/-Linux-000000?style=for-the-badge&logo=linux&logoColor=FF2E2E)
-![Git](https://img.shields.io/badge/-Git-000000?style=for-the-badge&logo=git&logoColor=FF2E2E)
-![WebSocket](https://img.shields.io/badge/-WebSocket-000000?style=for-the-badge&logo=socketdotio&logoColor=FF2E2E)
-![Claude](https://img.shields.io/badge/-Claude%20Code-000000?style=for-the-badge&logo=anthropic&logoColor=FF2E2E)
-![Tkinter](https://img.shields.io/badge/-Tkinter-000000?style=for-the-badge&logo=python&logoColor=FF2E2E)
-
-</div>
-
-<br/>
-
-## `>_` Skill Proficiency
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/main/skills.svg" width="900" alt="Skills" />
-</div>
-
-<br/>
-
-## `>_` GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=AlirezaRg&theme=darkhub&no-frame=true&no-bg=true&margin-w=6&row=1&column=7" />
-
-</div>
-
-<br/>
-
-## `>_` Compiled Projects
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/main/projects-grid.svg" width="900" alt="Projects" />
-</div>
-
-<div align="center">
-
-[Rasco & Gosi](https://github.com/AlirezaRg/Rasco-Gosi) &nbsp;·&nbsp;
-[Ex-Change](https://github.com/AlirezaRg/Ex-Changes-Code) &nbsp;·&nbsp;
-[Code Analysis](https://github.com/AlirezaRg/code-analysis)
-
-</div>
-
-<br/>
-
-## `>_` System Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=AlirezaRg&show_icons=true&theme=dark&hide_border=true&bg_color=1A0606&title_color=FF2E2E&icon_color=FF2E2E&text_color=c9d1d9&rank_icon=github" width="48%" />
-<img src="https://github-readme-streak-stats.demolab.com/?user=AlirezaRg&theme=highcontrast&hide_border=true&background=1A0606&ring=FF2E2E&fire=FF2E2E&currStreakLabel=FF2E2E" width="48%" />
-
-<br/><br/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlirezaRg&layout=compact&theme=dark&hide_border=true&bg_color=1A0606&title_color=FF2E2E&text_color=c9d1d9&langs_count=8" width="48%" />
-
-</div>
-
-<br/>
-
-## `>_` Contribution Map
-
-<div align="center">
-
+<!-- Streak — full width -->
 <picture>
-  <source media="(prefers-color-scheme: dark)"  srcset="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/output/github-contribution-grid-snake.svg">
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=AlirezaRg&hide_border=true&background=000911&stroke=3B9EFF&ring=6FD3F2&fire=B9765E&currStreakLabel=3B9EFF&sideLabels=8FA9C0&currStreakNum=E8F4FF&sideNums=E8F4FF&dates=4A6076&titleColor=3B9EFF&card_width=1180" />
+  <img width="100%" src="https://streak-stats.demolab.com/?user=AlirezaRg&hide_border=true&background=FFFFFF&stroke=0B62C4&ring=1E88B0&fire=A0563C&currStreakLabel=0B62C4&sideLabels=4A6076&currStreakNum=041019&sideNums=041019&dates=8FA9C0&titleColor=0B62C4&card_width=1180" alt="Contribution streak" />
+</picture>
+
+<br/>
+
+<!-- Stats + top languages — side by side -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=AlirezaRg&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=3B9EFF&icon_color=6FD3F2&text_color=8FA9C0&bg_color=000911&card_width=500" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=AlirezaRg&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=0B62C4&icon_color=1E88B0&text_color=041019&bg_color=FFFFFF&card_width=500" alt="GitHub stats" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=AlirezaRg&layout=compact&langs_count=8&hide_border=true&title_color=3B9EFF&text_color=8FA9C0&bg_color=000911&card_width=500" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlirezaRg&layout=compact&langs_count=8&hide_border=true&title_color=0B62C4&text_color=041019&bg_color=FFFFFF&card_width=500" alt="Top languages" />
 </picture>
 
 </div>
 
+<!-- ===== CONTRIBUTION SNAKE ===== -->
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake eating my contributions" src="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/output/github-contribution-grid-snake-dark.svg" />
+</picture>
+
+</div>
+
+<!-- ===== PROJECTS PANEL ===== -->
+<!-- Generated from projects.json by .github/workflows/projects.yml -->
+
 <br/>
 
-## `>_` Open Connection
+<div align="center">
 
-```bash
-$ cat contact.txt
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/projects/projects.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/projects/projects-light.svg" />
+  <img width="100%" src="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/projects/projects.svg" alt="Projects" />
+</picture>
+
+</div>
+
+<!-- ===== SOCIAL BADGES ===== -->
+
+<br/>
 
 <div align="center">
 
 <a href="https://codeiish.ir">
-  <img src="https://img.shields.io/badge/-Website-000000?style=for-the-badge&logo=firefox&logoColor=FF2E2E" />
+  <img src="https://img.shields.io/badge/Portfolio-000911?style=for-the-badge&logo=aboutdotme&logoColor=3B9EFF&labelColor=000911" alt="Portfolio" />
 </a>
-&nbsp;
+&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/alirezarogni">
-  <img src="https://img.shields.io/badge/-LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=FF2E2E" />
+  <img src="https://img.shields.io/badge/LinkedIn-000911?style=for-the-badge&logo=linkedin&logoColor=6FD3F2&labelColor=000911" alt="LinkedIn" />
+</a>
+&nbsp;&nbsp;
+<a href="mailto:alirezarogni@gmail.com">
+  <img src="https://img.shields.io/badge/Email-000911?style=for-the-badge&logo=gmail&logoColor=B9765E&labelColor=000911" alt="Email" />
 </a>
 
-<br/><br/>
-
-<img src="https://img.shields.io/badge/exit%20code-0-1a1a2e?style=for-the-badge&labelColor=1a0606&color=ff2e2e" />
-<br/>
-<sub>thanks for visiting</sub>
-
 </div>
 
-<br/>
-
-</div>
+<!-- ===== END ===== -->

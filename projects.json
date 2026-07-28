@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Rasco & Gosi",
+    "repo": "AlirezaRg/Rasco-Gosi",
+    "description": "Desktop automation assistant with live camera preview, face detection and a scriptable action executor",
+    "tags": ["Python", "OpenCV", "Tkinter"]
+  },
+  {
+    "name": "Codeiish 3D",
+    "repo": "AlirezaRg/codeiish-3d",
+    "description": "",
+    "tags": ["TypeScript", "React", "Three.js"]
+  },
+  {
+    "name": "Image Enrollment API",
+    "repo": "AlirezaRg/image-enrollment-api",
+    "description": "",
+    "tags": ["Python", "FastAPI"]
+  },
+  {
+    "name": "Hand Mouse Control",
+    "repo": "AlirezaRg/hand-mouse-control",
+    "description": "Drive the mouse pointer with hand gestures from a webcam feed",
+    "tags": ["Python", "OpenCV", "MediaPipe"]
+  },
+  {
+    "name": "Code Analysis",
+    "repo": "AlirezaRg/code-analysis",
+    "description": "",
+    "tags": ["Python"]
+  },
+  {
+    "name": "Ex-Changes Code",
+    "repo": "AlirezaRg/Ex-Changes-Code",
+    "description": "",
+    "tags": ["Python"]
+  }
+]

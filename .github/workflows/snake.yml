@@ -13,17 +13,19 @@ jobs:
     permissions:
       contents: write
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: AlirezaRg
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=%230B62C4&color_dots=#ebedf0,#bcd9f7,#7db4ef,#3b9eff,#0550d6
+            dist/github-contribution-grid-snake-dark.svg?color_snake=%236FD3F2&color_dots=#04121f,#0b2f52,#0550d6,#3b9eff,#6fd3f2
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
+          commit_message: "Update contribution snake [skip ci]"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

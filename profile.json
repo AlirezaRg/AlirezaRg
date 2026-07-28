@@ -1,0 +1,28 @@
+{
+  "name": "Alireza Rogni",
+  "email": "alirezarogni@gmail.com",
+  "title_cmd": "./profile.sh --live",
+
+  "rows": [
+    ["Subject",       "Alireza Rogni"],
+    ["Role",          "Backend & Systems Engineer"],
+    ["Origin",        "Iran"],
+    ["Focus",         "Odoo/ERP Integrations + AI Tooling"],
+    ["Status",        "Open to backend & integration work"],
+    ["ToolChain",     "VS Code, Git, Linux, Claude Code"],
+    ["Core.Lang",     "Python, JavaScript, SQL"],
+    ["Core.Backend",  "Flask, Django, Odoo 18"],
+    ["Core.Database", "PostgreSQL, SQLite"],
+    ["Core.Infra",    "Linux, Docker, Git"],
+    ["Core.AI",       "Claude Code, LLM Tooling"]
+  ],
+
+  "contact": [
+    ["Grid.Mail",      "alirezarogni@gmail.com"],
+    ["Grid.Portfolio", "codeiish.ir"],
+    ["Grid.LinkedIn",  "alirezarogni"],
+    ["Grid.GitHub",    "@AlirezaRg"]
+  ],
+
+  "footer": "More about me & projects below in README"
+}
