@@ -3,26 +3,19 @@
 
 <img alt="Alireza Rogni" src="https://raw.githubusercontent.com/AlirezaRg/AlirezaRg/main/dark.svg">
 
-<!-- ===== GITHUB STATS ===== -->
+<!-- ===== CONTRIBUTION STREAK ===== -->
+<!--
+  The github-readme-stats cards (stats + top languages) used to sit here but the
+  public instance returns 503 under load. To bring them back, deploy your own
+  fork of https://github.com/anuraghazra/github-readme-stats to Vercel and point
+  the URLs at that host instead of github-readme-stats.vercel.app.
+-->
 
 <div align="center">
 
-<!-- Streak — full width -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=AlirezaRg&hide_border=true&background=000911&stroke=3B9EFF&ring=6FD3F2&fire=B9765E&currStreakLabel=3B9EFF&sideLabels=8FA9C0&currStreakNum=E8F4FF&sideNums=E8F4FF&dates=4A6076&titleColor=3B9EFF&card_width=1180" />
   <img width="100%" src="https://streak-stats.demolab.com/?user=AlirezaRg&hide_border=true&background=FFFFFF&stroke=0B62C4&ring=1E88B0&fire=A0563C&currStreakLabel=0B62C4&sideLabels=4A6076&currStreakNum=041019&sideNums=041019&dates=8FA9C0&titleColor=0B62C4&card_width=1180" alt="Contribution streak" />
-</picture>
-
-<br/>
-
-<!-- Stats + top languages — side by side -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=AlirezaRg&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=3B9EFF&icon_color=6FD3F2&text_color=8FA9C0&bg_color=000911&card_width=500" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=AlirezaRg&show_icons=true&count_private=true&include_all_commits=true&hide_rank=true&hide_border=true&title_color=0B62C4&icon_color=1E88B0&text_color=041019&bg_color=FFFFFF&card_width=500" alt="GitHub stats" />
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=AlirezaRg&layout=compact&langs_count=8&hide_border=true&title_color=3B9EFF&text_color=8FA9C0&bg_color=000911&card_width=500" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AlirezaRg&layout=compact&langs_count=8&hide_border=true&title_color=0B62C4&text_color=041019&bg_color=FFFFFF&card_width=500" alt="Top languages" />
 </picture>
 
 </div>
